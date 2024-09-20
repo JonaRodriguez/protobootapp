@@ -11,6 +11,7 @@ public class TestCalculadora {
     public void testCuadradoPositivo() {
         Calculadora calc = new Calculadora();
         assertEquals(25.0, calc.cuadrado(5.0), 0);
+        //esto es una prueba
     }
 
     @Test
